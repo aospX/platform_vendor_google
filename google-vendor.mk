@@ -35,7 +35,6 @@ vendor/google/prebuilt/app/GoogleEarth.apk:system/app/GoogleEarth.apk \
     vendor/google/prebuilt/app/MediaUploader.apk:system/app/MediaUploader.apk \
     vendor/google/prebuilt/app/NetworkLocation.apk:system/app/NetworkLocation.apk \
     vendor/google/prebuilt/app/OneTimeInitializer.apk:system/app/OneTimeInitializer.apk \
-    vendor/google/prebuilt/app/SetupWizard.apk:system/app/SetupWizard.apk \
     vendor/google/prebuilt/app/Talk.apk:system/app/Talk.apk \
     vendor/google/prebuilt/app/Vending.apk:system/app/Vending.apk \
     vendor/google/prebuilt/app/VoiceSearch.apk:system/app/VoiceSearch.apk \
