@@ -21,7 +21,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/prebuilt/app/Gmail.apk:system/app/Gmail.apk \
     vendor/google/prebuilt/app/GoogleBackupTransport.apk:system/app/GoogleBackupTransport.apk \
     vendor/google/prebuilt/app/GoogleContactsSyncAdapter.apk:system/app/GoogleContactsSyncAdapter.apk \
-vendor/google/prebuilt/app/GoogleEarth.apk:system/app/GoogleEarth.apk \
     vendor/google/prebuilt/app/GoogleFeedback.apk:system/app/GoogleFeedback.apk \
     vendor/google/prebuilt/app/GoogleLoginService.apk:system/app/GoogleLoginService.apk \
     vendor/google/prebuilt/app/GooglePackageVerifier.apk:system/app/GooglePackageVerifier.apk \
@@ -38,7 +37,8 @@ vendor/google/prebuilt/app/GoogleEarth.apk:system/app/GoogleEarth.apk \
     vendor/google/prebuilt/app/Talk.apk:system/app/Talk.apk \
     vendor/google/prebuilt/app/Vending.apk:system/app/Vending.apk \
     vendor/google/prebuilt/app/VoiceSearch.apk:system/app/VoiceSearch.apk \
-    vendor/google/prebuilt/app/YouTube.apk:system/app/YouTube.apk
+    vendor/google/prebuilt/app/YouTube.apk:system/app/YouTube.apk \
+    vendor/google/prebuilt/app/CalendarGoogle.apk:system/app/CalendarGoogle.apk
 
 # Common Permissions
 PRODUCT_COPY_FILES += \
@@ -58,10 +58,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/prebuilt/lib/libfrsdk.so:system/lib/libfrsdk.so \
     vendor/google/prebuilt/lib/libvoicesearch.so:system/lib/libvoicesearch.so \
     vendor/google/prebuilt/lib/libfacelock_jni.so:system/lib/libfacelock_jni.so \
-    vendor/google/prebuilt/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so
-
-# Common Vendor
-PRODUCT_COPY_FILES += \
-    vendor/google/prebuilt/vendor/pittpatt:system/vendor/pittpatt
-
+    vendor/google/prebuilt/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
+    vendor/google/prebuilt/lib/libpicowrapper.so:system/lib/libpicowrapper.so
 
