@@ -14,17 +14,15 @@
 
 # Common Applications
 PRODUCT_COPY_FILES += \
+    vendor/google/prebuilt/app/CalendarGoogle.apk:system/app/CalendarGoogle.apk \
     vendor/google/prebuilt/app/CarHomeGoogle.apk:system/app/CarHomeGoogle.apk \
     vendor/google/prebuilt/app/ChromeBookmarksSyncAdapter.apk:system/app/ChromeBookmarksSyncAdapter.apk \
-    vendor/google/prebuilt/app/FaceLock.apk:system/app/FaceLock.apk \
     vendor/google/prebuilt/app/GenieWidget.apk:system/app/GenieWidget.apk \
     vendor/google/prebuilt/app/Gmail.apk:system/app/Gmail.apk \
     vendor/google/prebuilt/app/GoogleBackupTransport.apk:system/app/GoogleBackupTransport.apk \
     vendor/google/prebuilt/app/GoogleContactsSyncAdapter.apk:system/app/GoogleContactsSyncAdapter.apk \
     vendor/google/prebuilt/app/GoogleFeedback.apk:system/app/GoogleFeedback.apk \
     vendor/google/prebuilt/app/GoogleLoginService.apk:system/app/GoogleLoginService.apk \
-    vendor/google/prebuilt/app/GooglePackageVerifier.apk:system/app/GooglePackageVerifier.apk \
-    vendor/google/prebuilt/app/GooglePackageVerifierUpdater.apk:system/app/GooglePackageVerifierUpdater.apk \
     vendor/google/prebuilt/app/GooglePartnerSetup.apk:system/app/GooglePartnerSetup.apk \
     vendor/google/prebuilt/app/GoogleQuickSearchBox.apk:system/app/GoogleQuickSearchBox.apk \
     vendor/google/prebuilt/app/GoogleServicesFramework.apk:system/app/GoogleServicesFramework.apk \
@@ -34,11 +32,12 @@ PRODUCT_COPY_FILES += \
     vendor/google/prebuilt/app/MediaUploader.apk:system/app/MediaUploader.apk \
     vendor/google/prebuilt/app/NetworkLocation.apk:system/app/NetworkLocation.apk \
     vendor/google/prebuilt/app/OneTimeInitializer.apk:system/app/OneTimeInitializer.apk \
+    vendor/google/prebuilt/app/Street.apk:system/app/Street.apk \
+    vendor/google/prebuilt/app/TagGoogle.apk:system/app/TagGoogle.apk \
     vendor/google/prebuilt/app/Talk.apk:system/app/Talk.apk \
     vendor/google/prebuilt/app/Vending.apk:system/app/Vending.apk \
     vendor/google/prebuilt/app/VoiceSearch.apk:system/app/VoiceSearch.apk \
-    vendor/google/prebuilt/app/YouTube.apk:system/app/YouTube.apk \
-    vendor/google/prebuilt/app/CalendarGoogle.apk:system/app/CalendarGoogle.apk
+    vendor/google/prebuilt/app/YouTube.apk:system/app/YouTube.apk
 
 # Common Permissions
 PRODUCT_COPY_FILES += \
@@ -55,9 +54,18 @@ PRODUCT_COPY_FILES += \
 
 # Common Libraries
 PRODUCT_COPY_FILES += \
+    vendor/google/prebuilt/lib/libflint_engine_jni_api.so:system/lib/libflint_engine_jni_api.so \
     vendor/google/prebuilt/lib/libfrsdk.so:system/lib/libfrsdk.so \
-    vendor/google/prebuilt/lib/libvoicesearch.so:system/lib/libvoicesearch.so \
-    vendor/google/prebuilt/lib/libfacelock_jni.so:system/lib/libfacelock_jni.so \
-    vendor/google/prebuilt/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
-    vendor/google/prebuilt/lib/libpicowrapper.so:system/lib/libpicowrapper.so
+    vendor/google/prebuilt/lib/libgcomm_jni.so:system/lib/libgcomm_jni.so \
+    vendor/google/prebuilt/lib/libmotricity.so:system/lib/libmotricity.so \
+    vendor/google/prebuilt/lib/libpicowrapper.so:system/lib/libpicowrapper.so \
+    vendor/google/prebuilt/lib/libspeexresampler.so:system/lib/libspeexresampler.so \
+    vendor/google/prebuilt/lib/libspeexwrapper.so:system/lib/libspeexwrapper.so \
+    vendor/google/prebuilt/lib/libvideochat_jni.so:system/lib/libvideochat_jni.so \
+    vendor/google/prebuilt/lib/libvideochat_stabilize.so:system/lib/libvideochat_stabilize.so \
+    vendor/google/prebuilt/lib/libvoicesearch.so:system/lib/libvoicesearch.so
+
+# Common Vendor
+PRODUCT_COPY_FILES += \
+    vendor/google/prebuilt/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so
 
