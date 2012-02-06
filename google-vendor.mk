@@ -21,6 +21,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/prebuilt/app/ChromeBookmarksSyncAdapter.apk:system/app/ChromeBookmarksSyncAdapter.apk \
     vendor/google/prebuilt/app/EmailGoogle.apk:system/app/EmailGoogle.apk \
     vendor/google/prebuilt/app/ExchangeGoogle.apk:system/app/ExchangeGoogle.apk \
+    vendor/google/prebuilt/app/GalleryGoogle.apk:system/app/GalleryGoogle.apk \
     vendor/google/prebuilt/app/GenieWidget.apk:system/app/GenieWidget.apk \
     vendor/google/prebuilt/app/Gmail.apk:system/app/Gmail.apk \
     vendor/google/prebuilt/app/GoogleBackupTransport.apk:system/app/GoogleBackupTransport.apk \
