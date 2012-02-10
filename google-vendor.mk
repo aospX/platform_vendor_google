@@ -24,6 +24,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/prebuilt/app/GenieWidget.apk:system/app/GenieWidget.apk \
     vendor/google/prebuilt/app/Gmail.apk:system/app/Gmail.apk \
     vendor/google/prebuilt/app/GoogleBackupTransport.apk:system/app/GoogleBackupTransport.apk \
+    vendor/google/prebuilt/app/GoogleCalendarSyncAdapter.apk:system/app/GoogleCalendarSyncAdapter.apk \
     vendor/google/prebuilt/app/GoogleContactsSyncAdapter.apk:system/app/GoogleContactsSyncAdapter.apk \
     vendor/google/prebuilt/app/GoogleFeedback.apk:system/app/GoogleFeedback.apk \
     vendor/google/prebuilt/app/GoogleLoginService.apk:system/app/GoogleLoginService.apk \
