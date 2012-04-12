@@ -62,15 +62,9 @@ PRODUCT_COPY_FILES += \
     vendor/google/prebuilt/lib/libflint_engine_jni_api.so:system/lib/libflint_engine_jni_api.so \
     vendor/google/prebuilt/lib/libfrsdk.so:system/lib/libfrsdk.so \
     vendor/google/prebuilt/lib/libgcomm_jni.so:system/lib/libgcomm_jni.so \
-    vendor/google/prebuilt/lib/libmotricity.so:system/lib/libmotricity.so \
     vendor/google/prebuilt/lib/libpicowrapper.so:system/lib/libpicowrapper.so \
-    vendor/google/prebuilt/lib/libspeexresampler.so:system/lib/libspeexresampler.so \
     vendor/google/prebuilt/lib/libspeexwrapper.so:system/lib/libspeexwrapper.so \
     vendor/google/prebuilt/lib/libvideochat_jni.so:system/lib/libvideochat_jni.so \
     vendor/google/prebuilt/lib/libvideochat_stabilize.so:system/lib/libvideochat_stabilize.so \
     vendor/google/prebuilt/lib/libvoicesearch.so:system/lib/libvoicesearch.so
-
-# Common Vendor
-PRODUCT_COPY_FILES += \
-    vendor/google/prebuilt/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so
 
