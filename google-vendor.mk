@@ -14,8 +14,6 @@
 
 # Common Applications
 PRODUCT_COPY_FILES += \
-    vendor/google/prebuilt/app/CalendarGoogle.apk:system/app/CalendarGoogle.apk \
-    vendor/google/prebuilt/app/CalendarProvider.apk:system/app/CalendarProvider.apk \
     vendor/google/prebuilt/app/CarHomeGoogle.apk:system/app/CarHomeGoogle.apk \
     vendor/google/prebuilt/app/ChromeBookmarksSyncAdapter.apk:system/app/ChromeBookmarksSyncAdapter.apk \
     vendor/google/prebuilt/app/EmailGoogle.apk:system/app/EmailGoogle.apk \
