@@ -24,6 +24,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/prebuilt/app/GoogleBackupTransport.apk:system/app/GoogleBackupTransport.apk \
     vendor/google/prebuilt/app/GoogleCalendarSyncAdapter.apk:system/app/GoogleCalendarSyncAdapter.apk \
     vendor/google/prebuilt/app/GoogleContactsSyncAdapter.apk:system/app/GoogleContactsSyncAdapter.apk \
+    vendor/google/prebuilt/app/GoogleEars.apk:system/app/GoogleEars.apk \
     vendor/google/prebuilt/app/GoogleFeedback.apk:system/app/GoogleFeedback.apk \
     vendor/google/prebuilt/app/GoogleLoginService.apk:system/app/GoogleLoginService.apk \
     vendor/google/prebuilt/app/GooglePartnerSetup.apk:system/app/GooglePartnerSetup.apk \
@@ -64,5 +65,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/prebuilt/lib/libspeexwrapper.so:system/lib/libspeexwrapper.so \
     vendor/google/prebuilt/lib/libvideochat_jni.so:system/lib/libvideochat_jni.so \
     vendor/google/prebuilt/lib/libvideochat_stabilize.so:system/lib/libvideochat_stabilize.so \
-    vendor/google/prebuilt/lib/libvoicesearch.so:system/lib/libvoicesearch.so
+    vendor/google/prebuilt/lib/libvoicesearch.so:system/lib/libvoicesearch.so \
+    vendor/google/prebuilt/lib/libvorbisencoder.so:system/lib/libvorbisencoder.so
 
